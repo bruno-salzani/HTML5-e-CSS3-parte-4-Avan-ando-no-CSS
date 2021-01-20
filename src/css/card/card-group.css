@@ -1,0 +1,19 @@
+/* Card */
+.card__group {
+  margin-bottom: 2rem;
+}
+
+.card__group--info {
+  margin-bottom: 1rem;
+}
+
+.card__group--title {
+    color: #787878;
+    font-size: 1.8rem;
+    font-family: Rubik,sans-serif;
+    font-weight: 300;
+}
+
+.card__group--content {
+  
+}

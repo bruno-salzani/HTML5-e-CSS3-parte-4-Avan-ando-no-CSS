@@ -1,0 +1,36 @@
+/* List */
+.list__primary {
+}
+
+.list__primary .list__item--primary:first-child {
+    border-top: none;
+}
+
+.list__item--primary {
+    border-top: 1px solid #e2e9e6;
+    color: #575757;
+    padding: 1.5rem 2rem;
+    position: relative;
+}
+
+.list__item--primary:hover {
+    background: #ebebeb;
+    cursor: pointer;
+}
+
+.list__icon--primary {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list__icon--wrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list__data--primary {
+    margin-left: 4rem;
+}

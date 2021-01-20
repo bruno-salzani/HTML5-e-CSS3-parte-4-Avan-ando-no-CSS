@@ -1,0 +1,73 @@
+/* Page */
+
+.page__info {
+}
+
+.page__title {
+    margin-left: 15px;
+    position: relative;
+    padding-left: 57px;
+}
+
+.page__title--text{
+    color: #212529;
+    font-family: "rubik";
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    line-height: 1.6;
+}
+
+.page__layout {
+}
+
+.page__content {
+    padding: 3rem 3rem 1.5rem 3rem;
+}
+
+.page__btn-back {
+    background-color: #d6dadc;
+    position: absolute;
+    left: 15px;
+    top: 9px;
+}
+
+.page__section--primary {
+    padding: 1rem;
+}
+
+.page__section--secondary {
+    padding: 0rem;
+}
+.page__section--tertiary {
+    padding: 0rem;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .page__content {
+        padding: 3rem 1rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .page__content {
+        padding: 3rem 1rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .page__content {
+        padding: 3rem 1rem !important;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .page__content {
+        padding: 3rem 0rem !important;
+    }
+}
+
