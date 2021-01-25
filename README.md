@@ -4,7 +4,7 @@
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
 
 ### Demonstração
-<a href="https://bruno-salzani.github.io/html-css-course/" target="_blank">Clique aqui</a> para acessar a demonstração do projeto
+Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/html-css-course/" target="_blank">Clique aqui</a>
 
 ### Descrição
 Este projeto tem como intuito aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
