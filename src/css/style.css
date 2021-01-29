@@ -1,6 +1,20 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 body {
 	background-color: #141414;
 	font-family: Raleway,Arial,Helvetica,sans-serif;
+}
+
+#about,
+#services,
+#benefits,
+#our-establishment,
+#contact {
+	position: absolute;
+	top: -8vh;
 }
 
 .color-special {
@@ -17,6 +31,23 @@ body {
 	margin: 0 auto;
 }
 
+.header__link-group {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.header__link {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+.header__link a {
+	color: #dbab83;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 .page__header {
 	background-color: #141414;
 	padding: 1rem 2rem;
@@ -24,13 +55,16 @@ body {
 	width: 100%;
 	z-index: 999999;
 }
+
 .page__title {
 	color: #fff;
 	margin: 0;
 	font-family: "Rubik-Medium";
+	display: inline-block;
 }
 
 .page__section--primary {
+	position: relative;
 	padding: 4rem;
 }
 
@@ -164,6 +198,9 @@ body {
 .card__image {
 
 }
+
+
+
 
 @media (max-width: 900px) {
     .video {
