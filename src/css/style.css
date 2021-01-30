@@ -32,8 +32,10 @@ body {
 }
 
 .header__link-group {
-	list-style-type: none;
 	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	vertical-align: sub;
 }
 
 .header__link {
@@ -50,7 +52,7 @@ body {
 
 .page__header {
 	background-color: #141414;
-	padding: 1rem 2rem;
+	padding: 1.27rem 2rem;
 	position: fixed;
 	width: 100%;
 	z-index: 999999;
@@ -61,6 +63,7 @@ body {
 	margin: 0;
 	font-family: "Rubik-Medium";
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .page__section--primary {
@@ -79,11 +82,6 @@ body {
 .page__background--secondary {
 	height: 100%; 
 }
-
-/* .background__blur {
-	filter: blur(5px) brightness(25%);
-	-webkit-filter: blur(5px) brightness(25%);
-} */
 
 .page__background--primary,
 .page__background--secondary {
@@ -186,7 +184,7 @@ body {
 }
 
 .card__title {
-	color: #dbab83;
+	color: #fff;
 	font-weight: 500;
 	line-height: 48px;
 	text-transform: uppercase;
@@ -199,7 +197,107 @@ body {
 
 }
 
+.form {
+	width: 1100px;
+	margin: 6rem auto;
+}
 
+.form__row {
+
+}
+
+.form__wrap--primary {
+	margin: 1rem;
+	display: inline-block;
+	width: 30%;
+}
+
+.form__wrap--secondary {
+	margin: 1rem;
+	width: 100%;
+}
+
+.form__wrap--alternative {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	width: 30%;
+}
+
+.form__label {
+	color: #dbab83;
+	display: block;
+	font-size: 14px;
+	margin-bottom: .25rem;
+} 
+
+.form__input {
+	background: #141414;
+	border: none;
+	border-bottom: 1px solid #dbab83;
+	color: #fff;
+	font-size: 14px;
+	padding: .5rem 0;
+	width: 100%;
+}
+
+.form__input:focus {
+	outline: none;
+}
+
+.form__txtarea {
+	background: #141414;
+	border: none;
+	border-bottom: 1px solid #dbab83;
+	color: #fff;
+	font-size: 14px;
+	height: 150px;
+	padding: .5rem 0;
+	resize: none;
+	width: 97%;
+}
+
+.form__txtarea:focus {
+	outline: none;
+}
+
+.form__radio-option {
+	display: inline-block;
+	padding: .5rem .5rem .5rem 0;
+}
+
+.form__radio-label {
+	color: #fff;
+	font-size: 13px;
+	vertical-align: top;
+}
+
+.form__radio-input {
+	margin-right: .25rem;
+	vertical-align: top;
+}
+
+.form__checkbox-input {
+	margin-right: .25rem;
+}
+
+.form__checkbox-label {
+	color: #dbab83;
+}
+
+.form__btn-submit {
+	background: #141414;
+	border: 1px solid #dbab83;
+	color: #dbab83;
+	font-size: 14px;
+	margin: 2rem auto 0 auto;
+	padding: 1rem;
+	width: 97%;
+}
+
+.form__btn-submit:hover {
+	cursor: pointer;
+}
 
 
 @media (max-width: 900px) {

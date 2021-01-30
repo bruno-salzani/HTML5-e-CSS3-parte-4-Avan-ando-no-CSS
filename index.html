@@ -18,8 +18,6 @@
 			<li class="header__link"><a href="#main">Inicio</a></li>
 			<li class="header__link"><a href="#about">Sobre</a></li>
 			<li class="header__link"><a href="#services">Serviços</a></li>
-			<li class="header__link"><a href="#benefits">Benefícios</a></li>
-			<li class="header__link"><a href="#our-establishment">Nosso estabelecimento</a></li>
 			<li class="header__link"><a href="#contact">Contato</a></li>
 		</ul>
 	</header>
@@ -56,7 +54,7 @@
 					<h2 class="section__title--primary">Serviços</h2>
 
 					<div class="card__group">
-						<div class="card" style="background: url(src/assets/img/barba.jpg) center;">
+						<div class="card" style="background: url(src/assets/img/cabelo.jpg) center;">
 							<h3 class="card__title">Cabelo</h4>
 						</div>
 				
@@ -64,66 +62,9 @@
 							<h3 class="card__title">Barba</h4>
 						</div>
 				
-						<div class="card" style="background: url(src/assets/img/cabelo_barba.jpg) top center;">
-							<h3 class="card__title">Cabelo + barba</h4>
+						<div class="card" style="background: url(src/assets/img/cabelo_barba.jpg) center center;">
+							<h3 class="card__title">Cabelo & barba</h4>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Page Section -->
-		<section class="page__section--primary">
-			<a id="benefits"></a>
-
-			<h3 class="section__title--primary">Benefícios</h3>
-
-			<ul class="section__list">
-				<li class="list__item">
-					<div class="list__item-decoration">
-						<i class="list__item-icon fas fa-concierge-bell"></i>
-					</div>
-					
-					<h4 class="list__item-text">Atendimento aos Clientes</h4>
-				</li>
-
-				<li class="list__item">
-					<div class="list__item-decoration">
-						<i class="list__item-icon fas fa-store-alt"></i>
-					</div>
-
-					<h4 class="list__item-text">Espaço diferenciado</h4>
-				</li>
-
-				<li class="list__item">
-					<div class="list__item-decoration">
-						<i class="list__item-icon fas fa-map-marker-alt"></i>
-					</div>
-
-					<h4 class="list__item-text">Localização</h4>
-				</li>
-
-				<li class="list__item">
-					<div class="list__item-decoration">
-						<i class="list__item-icon fas fa-user-tie"></i>
-					</div>
-					
-					<h4 class="list__item-text">Profissionais Qualificados</h4>
-				</li>
-			</ul>
-		</section>
-
-		<!-- Page Section -->
-		<section class="page__section--secondary">
-			<a id="our-establishment"></a>
-
-			<div class="page__background--secondary" style="background-image: url('src/assets/img/background/bg_3.jpg');">
-				<div class="section__content">
-					<h2 class="section__title--primary">Nosso estabelecimento</h2>
-					<p class="section__text">Nosso estabelecimento está localizado no coração da cidade.</p>
-	
-					<div class="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 				</div>
 			</div>
@@ -134,6 +75,82 @@
 			<a id="contact"></a>
 
 			<h3 class="section__title--primary">Contato</h3>
+
+			<form class="form">
+				<div class="form__wrap--primary">
+					<label class="form__label">Nome</label>
+					<input class="form__input" type="text" maxlength="50" required>
+				</div>
+
+				<div class="form__wrap--primary">
+					<label class="form__label">Email</label>
+					<input class="form__input" type="email" maxlength="50" required>
+				</div>
+
+				<div class="form__wrap--primary">
+					<label class="form__label">Telefone</label>
+					<input class="form__input" type="tel" maxlength="10" required>
+				</div>
+
+
+				<div class="form__wrap--secondary">
+					<label class="form__label">Mensagem</label>
+					<textarea class="form__txtarea" required></textarea>
+				</div>
+
+				<div class="form__wrap--primary">
+					<label class="form__label">Como prefere o nosso contato?</label>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-email">
+							<input class="form__radio-input" id="radio-email" type="radio" name="contact" value="email" checked>Email
+						</label>
+					</div>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-telefone">
+							<input class="form__radio-input" id="radio-telefone" type="radio" name="contact" value="telefone">Telefone
+						</label>
+					</div>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-whatsapp">
+							<input class="form__radio-input" id="radio-whatsapp" type="radio" name="contact" value="whatsapp">Whatsapp
+						</label>
+					</div>
+				</div>
+
+				<div class="form__wrap--primary">
+					<label class="form__label">Qual horário prefere ser atendido?</label>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-morning">
+							<input class="form__radio-input" id="radio-morning" type="radio" name="period" value="manha" checked>Manhã
+						</label>
+					</div>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-afternoon">
+							<input class="form__radio-input" id="radio-afternoon" type="radio" name="period" value="tarde">Tarde
+						</label>
+					</div>
+
+					<div class="form__radio-option">
+						<label class="form__radio-label" for="radio-night">
+							<input class="form__radio-input" id="radio-night" type="radio" name="period" value="noite">Noite
+						</label>
+					</div>
+				</div>
+
+				<div class="form__wrap--alternative">
+					<input class="form__checkbox-input" type="checkbox" checked>
+					<label class="form__checkbox-label">Receber novidades por email</label>
+				</div>
+
+				<div class="form__wrap--secondary">
+					<button class="form__btn-submit" type="submit">Enviar</button>
+				</div>
+			</form>
 		</section>
 
 	</main>
