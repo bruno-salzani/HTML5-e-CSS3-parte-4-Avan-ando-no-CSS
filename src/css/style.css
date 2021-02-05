@@ -299,11 +299,43 @@ body {
 	cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .card {
+		margin: 3rem .25rem;
+	}
+}
 
 @media (max-width: 900px) {
     .video {
         width: 100%;
     }
+
+	.card__group {
+		padding-top: 0;
+	}
+
+	.card {
+		width: 400px;
+		height: 220px;
+		margin: .5rem;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+	.form__wrap--primary {
+		width: 95%;
+	}
+
+	.form__wrap--secondary {
+		width: 95%;
+	} 
+
+	.form__wrap--alternative {
+		width: 95%;
+		margin: 1rem;
+	} 
 }
 
 @font-face {
