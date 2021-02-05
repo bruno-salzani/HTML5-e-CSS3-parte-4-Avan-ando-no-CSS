@@ -1,4 +1,4 @@
-## HTML5 e CSS3
+## HTML Project One
 
 ### Sobre mim
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
