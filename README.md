@@ -1,7 +1,10 @@
-## HTML Project One
+## Project HTML Barbershop
 
 ### Sobre mim
+* Nome: Bruno Borges Salzani
+* Cargo: Analista de testes
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
+* Email: <a href="mailto:bruno.salzani@hotmail.com" target="_blank">bruno.salzani@hotmail.com</a>
 
 ### Demonstração
 Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-one/" target="_blank">Clique aqui</a>
