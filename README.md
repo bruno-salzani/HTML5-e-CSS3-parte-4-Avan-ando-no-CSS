@@ -1,10 +1,10 @@
 ## Introdução
-### Sobre mim
+#### Sobre mim
 * Nome: Bruno Borges Salzani
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
 * Email: <a href="mailto:bruno.salzani@hotmail.com" target="_blank">bruno.salzani@hotmail.com</a>
 
-### Trilha
+#### Trilha
 1. <a href="https://github.com/bruno-salzani/project-html-barbershop" target="_blank">Barbershop</a>
 2. <a href="https://github.com/bruno-salzani/project-html-portfolio" target="_blank">Portfolio</a>
 3. <a href="https://github.com/bruno-salzani/project-html-courses" target="_blank">Courses</a>
@@ -12,10 +12,10 @@
 5. <a href="#" target="_blank">Recipes</a>
 
 ## Projeto
-### Demonstração
+#### Demonstração
 Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-one/" target="_blank">Clique aqui</a>
 
-### Descrição
+#### Descrição
 Este projeto tem como intuito aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
 
 * (<a href="https://cursos.alura.com.br/certificate/1209abd4-85e0-4562-a32c-10ecb7fc886f" target="_blank">Certificado</a>) 
