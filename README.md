@@ -7,7 +7,7 @@
 
 ### Trilha
 1. <a href="https://github.com/bruno-salzani/project-html-barbershop" target="_blank">Barbershop</a>
-2. <a href="https://github.com/bruno-salzani/project-html-portfolio" target="_blank">Portfólio</a>
+2. <a href="https://github.com/bruno-salzani/project-html-portfolio" target="_blank">Portfolio</a>
 3. <a href="https://github.com/bruno-salzani/project-html-courses" target="_blank">Courses</a>
 4. <a href="#" target="_blank">Architecture</a>
 5. <a href="#" target="_blank">Recipes</a>
