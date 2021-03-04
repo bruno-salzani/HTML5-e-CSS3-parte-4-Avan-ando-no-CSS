@@ -1,5 +1,3 @@
-# Barbershop - HTML
-
 ## Introdução
 ### Sobre mim
 * Nome: Bruno Borges Salzani
