@@ -11,7 +11,6 @@
 </head>
 
 <body>
-	<!-- Header -->
 	<header class="page__header">
 		<h1 class="page__title">Barbershop</h1>
 		<ul class="header__link-group">
@@ -22,16 +21,10 @@
 		</ul>
 	</header>
 
-	<!-- Content -->
 	<main class="page__content" id="main">
-
-		<!-- Background -->
-		<div class="page__background--primary" style="background-image: url('src/assets/img/background/bg_1.jpg');"></div>
+		<div class="page__background--home"></div>
 		
-		<!-- Page Section -->
-		<section class="page__section--primary">
-			<a id="about"></a>
-
+		<section class="page__section--primary" id="about">
 			<h2 class="section__title--secondary">Sobre</h2>
 			
 			<div class="section__wrap">
@@ -45,35 +38,27 @@
 			</div>
 		</section>
 
-		<!-- Page Section -->
-		<section class="page__section--secondary">
-			<a id="services"></a>
+		<section class="page__section--services" id="services">
+			<div class="section__content">
+				<h2 class="section__title--primary">Serviços</h2>
 
-			<div class="page__background--secondary" style="background-image: url('src/assets/img/background/bg_2.jpg');">
-				<div class="section__content">
-					<h2 class="section__title--primary">Serviços</h2>
-
-					<div class="card__group">
-						<div class="card" style="background: url(src/assets/img/cabelo.jpg) center;">
-							<h3 class="card__title">Cabelo</h4>
-						</div>
-				
-						<div class="card" style="background: url(src/assets/img/barba.jpg) center;">
-							<h3 class="card__title">Barba</h4>
-						</div>
-				
-						<div class="card" style="background: url(src/assets/img/cabelo_barba.jpg) center center;">
-							<h3 class="card__title">Cabelo & barba</h4>
-						</div>
+				<div class="card__group">
+					<div class="card" style="background: url(src/assets/img/cabelo.jpg) center;">
+						<h3 class="card__title">Cabelo</h4>
+					</div>
+			
+					<div class="card" style="background: url(src/assets/img/barba.jpg) center;">
+						<h3 class="card__title">Barba</h4>
+					</div>
+			
+					<div class="card" style="background: url(src/assets/img/cabelo_barba.jpg) center center;">
+						<h3 class="card__title">Cabelo & barba</h4>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Page Section -->
-		<section class="page__section--primary">
-			<a id="contact"></a>
-
+		<section class="page__section--primary" id="contact">
 			<h3 class="section__title--primary">Contato</h3>
 
 			<form class="form">
@@ -91,7 +76,6 @@
 					<label class="form__label">Telefone</label>
 					<input class="form__input" type="tel" maxlength="10" required>
 				</div>
-
 
 				<div class="form__wrap--secondary">
 					<label class="form__label">Mensagem</label>
@@ -152,7 +136,6 @@
 				</div>
 			</form>
 		</section>
-
 	</main>
 </body>
 </html>
