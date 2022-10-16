@@ -1,7 +1,7 @@
 ## Projeto
 
 ### Descrição
-Este projeto tem como intuito aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
+Este projeto tem como objetivo aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
 
 * (<a href="https://cursos.alura.com.br/certificate/1209abd4-85e0-4562-a32c-10ecb7fc886f" target="_blank">Certificado</a>) 
 <a href="https://cursos.alura.com.br/course/html5-css3-primeiros-passos" target="_blank">HTML5 E CSS3 PARTE 1</a>
