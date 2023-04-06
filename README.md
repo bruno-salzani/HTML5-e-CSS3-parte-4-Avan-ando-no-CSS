@@ -16,7 +16,7 @@ Este projeto tem como objetivo aplicar e consolidar o conhecimento de HTML/CSS a
 <a href="https://cursos.alura.com.br/course/html5-css3-avancando-css" target="_blank">HTML5 E CSS3 PARTE 4</a>
 
 ### Demonstração
-Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-barbershop/" target="_blank">Clique aqui</a>
+Para acessar a demonstração do projeto <a href="https://barbershopcourse.netlify.app/" target="_blank">Clique aqui</a>
 
 ![GitHub Logo](/src/assets/img/thumb/thumb_1.jpg)
 
